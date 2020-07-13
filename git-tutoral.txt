@@ -1,0 +1,22 @@
+tutorial git	:
+configurasi git = git config --global user.name "prana10"
+		  git config --global user.email pranadhika22@gmail.com
+
+langkah membuat repository secara remote(public): 
+1.buka github.com lalu create new repository
+2.pilih direktori mana yang mau di add ke repository
+lalu lakukan langkah ini(didalam direktori yang sudah anda pilih):
+git init
+git config --list	#opsional
+git status		#opsional
+lalu pilih file yang mau ditambahkan:
+git add nama_file
+git commit -m "judul commit"
+git remote add (nama_remote contoh = proyek) https://github.com/prana10/repository_anda
+git push -u nama_remote master atau git push nama_remote master
+selesai
+
+cara edit dan add kembali :
+git add nama_file_yang_sudah_diedit
+git diff nama_file_yang_sudah_diedit	#opsional
+git push -u nama_remote master atau git push nama_remote master
