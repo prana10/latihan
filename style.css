@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+.satu {
+    background-color: green;
+    margin: 20px 0px 0px 10px;
+}
+.dua {
+    background-color: blue;
+}
+.tiga {
+    background-color: red;
+}
